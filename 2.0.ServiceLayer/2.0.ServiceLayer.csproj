@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0.0.DataTransferLayer\0.0.DataTransferLayer.csproj" />
+    <ProjectReference Include="..\1.0.HelperLayer\1.0.HelperLayer.csproj" />
+    <ProjectReference Include="..\3.0.BussinesLayer\3.0.BussinesLayer.csproj" />
+  </ItemGroup>
+
 </Project>

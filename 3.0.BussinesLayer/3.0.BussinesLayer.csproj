@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\0.0.DataTransferLayer\0.0.DataTransferLayer.csproj" />
+    <ProjectReference Include="..\1.0.HelperLayer\1.0.HelperLayer.csproj" />
+    <ProjectReference Include="..\4.0.RepositoryLayer\4.0.RepositoryLayer.csproj" />
+    <ProjectReference Include="..\5.0.DataAccessLayer\5.0.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
