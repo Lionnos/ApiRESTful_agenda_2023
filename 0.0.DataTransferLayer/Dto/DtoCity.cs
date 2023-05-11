@@ -1,8 +1,8 @@
 ﻿using _0._0.DataTransferLayer.Generic;
 
-namespace _0._0.DataTransferLayer.DTO
+namespace _0._0.DataTransferLayer.Dto
 {
-    internal class DtoCity : DtoGeneric
+    public class DtoCity : DtoGeneric
     {
         public string idCity { get; set; }
         public string name { get; set; }

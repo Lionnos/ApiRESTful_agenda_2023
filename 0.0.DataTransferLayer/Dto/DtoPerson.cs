@@ -1,8 +1,8 @@
 ﻿using _0._0.DataTransferLayer.Generic;
 
-namespace _0._0.DataTransferLayer.DTO
+namespace _0._0.DataTransferLayer.Dto
 {
-    internal class DtoPerson : DtoGeneric
+    public class DtoPerson : DtoGeneric
     {
         public string idPerson { get; set; }
         public string idUser { get; set; }
