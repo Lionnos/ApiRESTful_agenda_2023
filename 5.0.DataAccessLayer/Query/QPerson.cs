@@ -25,7 +25,7 @@ namespace _5._0.DataAccessLayer.Query
             throw new NotImplementedException();
         }
 
-        public int GetPageRowQuatity()
+        public int GetPageRowQuantity()
         {
             throw new NotImplementedException();
         }

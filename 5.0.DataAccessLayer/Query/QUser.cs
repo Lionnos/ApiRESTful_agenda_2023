@@ -3,14 +3,14 @@ using _4._0.RepositoryLayer.Repo;
 
 namespace _5._0.DataAccessLayer.Query
 {
-    internal class QUser : RepoUser
+    public class QUser : RepoUser
     {
-        public int Delete(string idUser)
+        public int Delete(string id)
         {
             throw new NotImplementedException();
         }
 
-        public int Edit(DtoUser dtoUser)
+        public int Edit(DtoUser dto)
         {
             throw new NotImplementedException();
         }
@@ -20,12 +20,17 @@ namespace _5._0.DataAccessLayer.Query
             throw new NotImplementedException();
         }
 
+        public DtoUser GetByEmail(string idUser)
+        {
+            throw new NotImplementedException();
+        }
+
         public DtoUser GetById(string id)
         {
             throw new NotImplementedException();
         }
 
-        public int Insert(DtoUser dtoUser)
+        public int Insert(DtoUser dto)
         {
             throw new NotImplementedException();
         }

@@ -1,6 +1,4 @@
-﻿using _0._0.DataTransferLayer.Dto;
-
-namespace _4._0.RepositoryLayer.Generic
+﻿namespace _4._0.RepositoryLayer.Generic
 {
     public interface RepoGeneric<Dto>
     {
