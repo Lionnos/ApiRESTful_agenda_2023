@@ -3,7 +3,7 @@ using _4._0.RepositoryLayer.Repo;
 
 namespace _5._0.DataAccessLayer.Query
 {
-    internal class QPerson : RepoPerson
+    public class QPerson : RepoPerson
     {
         public int Delete(string id)
         {

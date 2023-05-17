@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _5._0.DataAccessLayer.Conection
 {
-    internal class DataBaseContext : DbContext
+    public class DataBaseContext : DbContext
     {
         //Declarando las DBC
         public DbSet<City> Cities { get; set; }
@@ -21,7 +21,7 @@ namespace _5._0.DataAccessLayer.Conection
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            String connection = "Server = 127.0.0.1; Database = dbAgenda20231; User Id = sa; Password = 1001";
+            String connection = "Server = 127.0.0.1; Database = dbAgenda20231; User Id = sa; Password = 1001; Connection=True";
             optionsBuilder.UseSqlServer(connection);
         }
     }
