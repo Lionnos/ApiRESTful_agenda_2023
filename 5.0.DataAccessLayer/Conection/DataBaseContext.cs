@@ -21,8 +21,16 @@ namespace _5._0.DataAccessLayer.Conection
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            String connection = "Server = 127.0.0.1; Database = dbAgenda20231; User Id = sa; Password = 1001; Connection=True";
-            optionsBuilder.UseSqlServer(connection);
+            try
+            {
+                optionsBuilder.UseSqlServer("Server=Acer\\SQLEXPRESS; Database=dbAgenda20231; Trusted_Connection=True; TrustServerCertificate=True");
+                Console.WriteLine("Connection TRUE");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
+
     }
 }

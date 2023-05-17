@@ -22,7 +22,7 @@ namespace _5._0.DataAccessLayer.Query
         {
             using(DataBaseContext dbc = new())
             {
-                List<City> listCity = dbc.Cities.ToList(); // select * from tcity
+                List<City> listCity = dbc.Cities.ToList( ); // select * from tcity
                 List<DtoCity> listDtoCity = new(); 
 
                 foreach (City item in listCity)
