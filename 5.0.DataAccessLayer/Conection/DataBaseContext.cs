@@ -23,8 +23,8 @@ namespace _5._0.DataAccessLayer.Conection
         {
             try
             {
-                optionsBuilder.UseSqlServer("Server=Acer\\SQLEXPRESS; Database=dbAgenda20231; Trusted_Connection=True; TrustServerCertificate=True");
-                Console.WriteLine("Connection TRUE");
+                //optionsBuilder.UseSqlServer("Server=Acer\\SQLEXPRESS; Database=dbAgenda20231; Trusted_Connection=True; TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("Server=127.0.0.1; Database=dbAgenda20231; User Id=sa; Password=1001; TrustServerCertificate=True;");
             }
             catch (Exception ex)
             {
